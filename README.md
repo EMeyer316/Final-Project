@@ -2,13 +2,13 @@
 
 Project Overview:
 
-We examined the trends in outdoor air quality based on established air quality indicators from the U.S. Environmental Protection Agency (EPA). We also examined potential trends in the temporal associations between air pollutants and specific health effects in humans. 
+We examined the trends in outdoor air quality over the past 40 years based on established air quality indicators from the U.S. Environmental Protection Agency (EPA). We also examined trends in ground and air traffic volume measurements over the same period and used decision tree machine learning technology to see if there was a linear relationship between traffic volume and air quality.
 
 Key Questions:
 
-What are the trends for Air Quality Indicators (AQIs) for the tristate area over the last 40 years?
-What are the trends in the air quality-related health outcomes in the tristate area over the last 10 years?
-Are specific air pollutant gases more closely associated with negative health outcomes than others in the tristate area?
+What are the trends for Air Quality Indicators (AQIs) nationwide over the last 40 years?
+What are the trends in air and ground traffic volume nationwide over the last 40 years?
+Does the relationship in trends between these two show any connection or relationship?
 
 Background:
 
@@ -20,9 +20,11 @@ Methods:
 
 EPA AQI Data
 EPA Individual air pollutant data (gases)
+Texas A&M Urban Mobility Report
+Bureau of Transportation Air Carrier Statistics
 (Limitations:  Used data available. Note: all years and/or locations not available for all datasets)
 Utilized zip_download function to download the large datasets for data more than a decade
-Utilized API and Seaborn to create heat maps for ozone levels in tristate by county
+
 
 Overall:
 
