@@ -18,11 +18,11 @@ Air quality measurements for the tristate area (NY, NJ, CT) have not consistentl
 
 Methods:
 
-EPA AQI Data
-EPA Individual air pollutant data (gases)
-Texas A&M Urban Mobility Report
-Bureau of Transportation Air Carrier Statistics
-(Limitations:  Used data available. Note: all years and/or locations not available for all datasets)
+EPA AQI Data  
+EPA Individual air pollutant data (gases)  
+Texas A&M Urban Mobility Report  
+Bureau of Transportation Air Carrier Statistics  
+(Limitations:  Used data available. Note: all years and/or locations not available for all datasets)  
 Utilized zip_download function to download the large datasets for data more than a decade
 
 
